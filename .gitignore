@@ -1,0 +1,25 @@
+# Next.js
+.next/
+out/
+
+# deps
+node_modules/
+
+# env
+.env
+.env*.local
+
+# generated / build artefacts
+*.tsbuildinfo
+next-env.d.ts
+
+# OS
+.DS_Store
+Thumbs.db
+
+# editor
+.vscode/
+.idea/
+
+# Cursor context (session notes only, not source)
+context/
