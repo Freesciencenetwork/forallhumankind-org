@@ -25,7 +25,7 @@ export default function HomePage() {
         </a>
 
         <nav className="nav">
-          <a href="#purpose">About</a>
+          <a href="#about">About</a>
           <a href="#topics">Topics</a>
           <a href="#discussion">Discussion</a>
           <a href="#action">Action</a>
@@ -66,7 +66,39 @@ export default function HomePage() {
         aria-labelledby="purpose-heading"
       >
         <div className="section-heading">
-          <h2 id="purpose-heading">An Independent Think Tank.</h2>
+          <h2 id="purpose-heading">Our Future depends on us.</h2>
+          <p className="purpose-tagline">
+            Changes start with a social dialog among us.
+          </p>
+        </div>
+
+        <div className="section-body">
+          <p>
+            forallhumanity.org is a forum for examining what changes when
+            intelligence becomes inexpensive to reproduce at the margin, and how
+            that shift affects incentives, institutions, and everyday life. We
+            understand &ldquo;zero margin&rdquo; not as a claim about efficiency alone, but
+            as an inquiry into value creation, distribution, and the
+            guardrails that should remain in place.
+          </p>
+          <p>
+            We advocate for human-in-the-loop design, in which judgment,
+            consent, and accountability remain explicit rather than concealed
+            by automation. We also situate these questions within sustainable
+            development, including environmental constraints, fair labor, and
+            long-term welfare, in a period when AI can amplify both risk and
+            opportunity.
+          </p>
+        </div>
+      </section>
+
+      <section
+        className="section purpose"
+        id="about"
+        aria-labelledby="about-heading"
+      >
+        <div className="section-heading">
+          <h2 id="about-heading">An Independent Think Tank.</h2>
           <p className="purpose-tagline">
             Non-partisan. Not for profit. Open to everyone.
           </p>
@@ -197,7 +229,7 @@ export default function HomePage() {
             </div>
           </div>
           <nav className="nav nav--footer" aria-label="Site sections">
-            <a href="#purpose">About</a>
+            <a href="#about">About</a>
             <a href="#topics">Topics</a>
             <a href="#discussion">Discussion</a>
             <a href="#action">Action</a>
