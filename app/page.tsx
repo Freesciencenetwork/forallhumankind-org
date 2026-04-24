@@ -113,8 +113,7 @@ export default function HomePage() {
           </p>
           <p>
             Our work brings together researchers, practitioners, and citizens
-            to interrogate the distribution of power and opportunity in an
-            age of zero-margin intelligence — and to propose governance
+            to interrogate the distribution of power, and to propose governance
             frameworks, policy alternatives, and open knowledge commons that
             serve all of humanity.
           </p>
